@@ -1,0 +1,2 @@
+/Users/bob/Library/Developer/Xcode/DerivedData/DynamicTest-cmwlkocufqvbqneojtfjzfvioohn/Build/Products/Debug-iphonesimulator/DynamicTest_Example.app
+-

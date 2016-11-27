@@ -1,0 +1,11 @@
+
+
+target 'DynamicTest_Example' do
+  pod 'DynamicTest', :path => '../'
+  pod 'SSZipArchive'
+  target 'DynamicTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
