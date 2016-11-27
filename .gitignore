@@ -18,8 +18,8 @@ DerivedData
 *.orig
 npm-debug.log
 CodeCoverageForXcode/
-#DynamicGenerator.xcodeproj
-#DynamicGenerator/DynamicGenerator/
+DynamicGenerator.xcodeproj
+DynamicGenerator/DynamicGenerator/
 
 # CocoaPods
 #

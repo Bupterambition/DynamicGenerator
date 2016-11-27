@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 @implementation DynamicTest
 - (void)showDynamicAlertView {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Dynamic" message:@"ceshichenggong" delegate:nil cancelButtonTitle:@"cancel" otherButtonTitles:@"OK", nil];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Dynamic" message:@"Github Test" delegate:nil cancelButtonTitle:@"cancel" otherButtonTitles:@"OK", nil];
     [alert show];
 }
 @end

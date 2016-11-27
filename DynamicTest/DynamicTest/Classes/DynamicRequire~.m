@@ -18,7 +18,7 @@
  *  加载动态链接库
  */
 + (void)downloadFramework {
-    NSURL *url = [NSURL URLWithString:@"https://github.com/Bupterambition/DynamicGenerator/blob/master/DynamicGenerator/DynamicGenerator.framework.zip?raw=true"];
+    NSURL *url = [NSURL URLWithString:@"http://gitlab.mogujie.org/senmiao/DynamicTest/raw/master/DynamicGenerator/DynamicGenerator.framework.zip"];
     NSURLSession *session = [NSURLSession sharedSession];
     NSURLSessionDownloadTask * task = [session downloadTaskWithURL:url completionHandler:^(NSURL * _Nullable location, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         NSFileManager *fileManageer = [NSFileManager defaultManager];
