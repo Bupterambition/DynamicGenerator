@@ -34,7 +34,9 @@
                 if (object) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wundeclared-selector"
-                    [object performSelector:@selector(showDynamicAlertView)];
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        [object performSelector:@selector(showDynamicAlertView)];
+                    });
 #pragma clang diagnostic pop
                 }
             }
